@@ -4,10 +4,8 @@ html{
     font-family: Outfit;    
 }
 .container{
-
     display: flex;
-    margin: 10px auto;       
-   
+    margin: 10px auto;     
 }
 .card{
     display: flex;   
@@ -19,13 +17,11 @@ html{
     padding: 25px;
     border-radius: 15px;    
 }
-
 .card .box{
     display: flex;    
     position: relative;
     width: 100%;
-    border-radius: 10px;
-    
+    border-radius: 10px;    
 }
 .blue-box{    
     position: absolute;
@@ -34,9 +30,7 @@ html{
     height: 100%;
     border-radius: 10px;
     text-align: center;
-    opacity: 0;
-    
-       
+    opacity: 0;      
 }
 .blue-box:hover{
     opacity: 0.65;
@@ -46,7 +40,6 @@ html{
     margin-top: 50%;
     transform: translate(-50%, -50%);    
 }
-
 .content{
     display: flex;
     flex-direction: row;
@@ -55,8 +48,6 @@ html{
     justify-content: flex-start;
     align-items: center;    
     color:hsl(215, 51%, 70%);
-
-
 }
 .content img{
     margin-right: 5px;
@@ -64,19 +55,18 @@ html{
 .card h2:hover, span:hover , 
 .card .box:hover{
     cursor:pointer;
-    color:hsl(178, 100%, 50%);   
-    
+    color:hsl(178, 100%, 50%);       
 }
 .cyan{
     color:hsl(178, 100%, 50%);
     margin-right:  35% ;
     font-weight: 600;       
 }
-
 .card h2{
     color:hsl(0, 0%, 100%);
     font-weight: 600;
     font-size: 23px;
+    margin: 10px 0;
 }
 .card p{
     font-size: 18px;
